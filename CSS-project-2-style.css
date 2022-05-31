@@ -1,0 +1,175 @@
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h2 {
+	display: block;
+	font-size: 30px;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h4 {
+	display: block;
+	font-size: 1em;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h5 {
+	display: block;
+	font-size: .83em;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h6 {
+	display: block;
+	font-size: .67em;
+	margin-top: 2.33em;
+	margin-bottom: 2.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+body {
+	background-color: #000000;
+}
+
+header {
+	height: 80px;
+	background-color: #000000;
+}
+
+header .head-1 {
+	height: 100%;
+	margin: 0% 10% 0% 10%;
+}
+
+header h1 {
+	color: #ffffff;
+	padding: 0%;
+	font-size: 4em;
+	margin: 0.15em 14.5em 0em 0em;
+	font-family: 'Ferro Rosso', sans-serif;
+}
+
+article {
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 8.9% 8% 0% 8%;
+}
+
+.flexbox {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
+
+.logo-1 {
+	height: 100%;
+	width: auto;
+	margin-left: 14.5em;
+}
+
+.gradient-1 {
+	height: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	position: relative;
+	width: 100%;
+}
+
+.top-img {
+	z-index: -1;
+	width: 100%;
+}
+
+.laferrari-img {
+	width: 100%;
+}
+
+.lafferari-div-1 {
+	width: 700%;
+}
+
+.lafferari-div-2 {
+	margin: 1.2% 4% 1.2% 4%;
+	color: #ffffff;
+}
+
+.lafferari-div-2 h2 {
+	font-family: 'Ferro Rosso', sans-serif;
+}
+
+.lafferari-div-2 h3 {
+	line-height: 170%
+}
+
+.f8-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.f8-img-front {
+	width: 100%;
+}
+
+.f8-img-rear {
+	width: 100%;
+}
+
+.f8-div-1 {
+	width: 100%;
+}
+
+.f8-div-2 {
+	width: 100%;
+}
+
+.f8-div-3 {
+	width: 100%;
+}
+
+.f8-div-4 {
+	margin: 1.2% 4% 1.2% 4%;
+	color: #ffffff;
+	grid-column: span 3;
+}
+
+.f8-div-4 h2 {
+	font-family: 'Ferro Rosso', sans-serif;
+}
+
+.f8-div-4 h3 {
+	line-height: 170%
+}
